@@ -124,12 +124,14 @@
     }
     a {
       text-decoration: none;
-      color: rgba(255, 255, 255, 0.6);
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-      font-size: 12px;
+      color: gray;
+      transition: .5s;
     }
+    
+    a:hover {
+      color: #000;
+    }
+
     </style>
   </head>
   <body>
@@ -147,7 +149,14 @@
       
       <!-- Login Submit Button -->
       <button type="submit" submit><?= $lang['loginButton']; ?></button>
+
+      <?php if ($config['allowRegistrations']) { ?>
+
+        <!-- Registration reminder text -->
+        <p style="text-align: center;"><?= $lang['notHavingAccount']; ?>&nbsp;<a href="/<?= $config['paths']['register']; ?>"><?= $lang['registerNow']; ?></a></p>
       
+      <?php } ?>
+
     </form>
   </body>
 </html>
