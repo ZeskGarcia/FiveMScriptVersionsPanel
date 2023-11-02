@@ -132,4 +132,18 @@
     }
     </style>
   </head>
+  <body>
+    <!-- Form -->
+    <form class="login" method="POST" action="">
+
+      <!-- Username Input -->
+      <input type="text" name="username" placeholder="<?= $lang['usernameInput']; ?>">
+      
+      <!-- Password Input -->
+      <input type="password" name="password" placeholder="<?= $lang['passwordInput']; ?>">
+      
+      <!-- Login Submit Button -->
+      <button type="submit" submit><?= $lang['loginButton']; ?></button>
+    </form>
+  </body>
 </html>
