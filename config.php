@@ -2,6 +2,9 @@
 
 $config = array();
 
+// Site Names...
+$config['siteName'] = "FiveM Script Versions";
+
 // Languages
 
 $config['availableLangs'] = ['en', 'es'];
