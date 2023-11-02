@@ -6,3 +6,5 @@ $lang['usernameInput'] = "Username";
 $lang['passwordInput'] = "Password";
 $lang['loginButton'] = "Login Now";
 $lang['loginPageTitle'] = "Login";
+$lang['notHavingAccount'] = "Not having an account?";
+$lang['registerNow'] = "Register Now!";
