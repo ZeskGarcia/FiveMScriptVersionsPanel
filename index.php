@@ -7,4 +7,4 @@ require_once 'Routes.php';
 
 // Start Server
 
-ZSK\Route::dispatch();
+Router::dispatch();
