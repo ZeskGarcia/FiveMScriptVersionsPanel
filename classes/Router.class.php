@@ -1,6 +1,6 @@
 <?php
 
-class Route {
+class Router {
 	private static $routes 	 			= array();
 	private static $methods 	 		= array();
 	private static $actions 			= array();
