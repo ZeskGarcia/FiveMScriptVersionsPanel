@@ -135,7 +135,10 @@
   <body>
     <!-- Form -->
     <form class="login" method="POST" action="">
-
+      
+      <!-- Login Page Title Text -->
+      <h2 style="text-align: center;"><?= $lang['loginPageTitle']; ?></h2>
+      
       <!-- Username Input -->
       <input type="text" name="username" placeholder="<?= $lang['usernameInput']; ?>">
       
@@ -144,6 +147,7 @@
       
       <!-- Login Submit Button -->
       <button type="submit" submit><?= $lang['loginButton']; ?></button>
+      
     </form>
   </body>
 </html>
